@@ -12,7 +12,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
   id: 'base16-summerfruit-light:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'base16-summerfruit-light/index.css';
+    const style = '@arbennett/base16-summerfruit-light/index.css';
 
     manager.register({
       name: 'base16-summerfruit-light',

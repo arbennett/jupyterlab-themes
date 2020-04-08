@@ -12,7 +12,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
   id: 'base16-outrun:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'base16-outrun/index.css';
+    const style = '@arbennett/base16-outrun/index.css';
 
     manager.register({
       name: 'base16-outrun',

@@ -12,10 +12,10 @@ const plugin: JupyterFrontEndPlugin<void> = {
   id: 'base16-nord:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'base16-nord/index.css';
+    const style = '@arbennett/base16-nord/index.css';
 
     manager.register({
-      name: 'base16-nord',
+      name: '/base16-nord',
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)

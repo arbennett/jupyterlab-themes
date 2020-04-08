@@ -1,5 +1,5 @@
 {
-  "name": "base16-monokai",
+  "name": "@arbennett/base16-monokai",
   "version": "0.1.0",
   "description": "A JupyterLab theme extension.",
   "author": "Andrew Bennett <bennett.andr@gmail.com>",

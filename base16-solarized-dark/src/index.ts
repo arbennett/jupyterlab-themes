@@ -12,7 +12,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
   id: 'base16-solarized-dark:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'base16-solarized-dark/index.css';
+    const style = '@arbennett/base16-solarized-dark/index.css';
 
     manager.register({
       name: 'base16-solarized-dark',

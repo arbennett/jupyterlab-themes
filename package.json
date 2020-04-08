@@ -1,5 +1,5 @@
 {
-  "name": "@arbennett/base16-outrun",
+  "name": "@arbennett/jupyterlab-themes",
   "version": "0.1.0",
   "description": "A JupyterLab theme extension.",
   "author": "Andrew Bennett <bennett.andr@gmail.com>",
@@ -10,17 +10,6 @@
     "jupyterlab-theme"
   ],
   "license": "BSD-3-Clause",
-  "files": [
-    "lib/*.d.ts",
-    "lib/*.js.map",
-    "lib/*.js",
-    "style/*"
-  ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib/"
-  },
   "scripts": {
     "build": "tsc",
     "build:webpack": "webpack",
@@ -31,7 +20,16 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^2.0.0",
-    "@jupyterlab/apputils": "^2.0.0"
+    "@jupyterlab/apputils": "^2.0.0",
+    "@arbennett/base16-nord":              "^0.1.0",
+    "@arbennett/base16-gruvbox-dark":      "^0.1.0",
+    "@arbennett/base16-gruvbox-light":     "^0.1.0",
+    "@arbennett/base16-monokai":           "^0.1.0",
+    "@arbennett/base16-one-dark":          "^0.1.0",
+    "@arbennett/base16-outrun":            "^0.1.0",
+    "@arbennett/base16-solarized-dark":    "^0.1.0",
+    "@arbennett/base16-solarized-light":   "^0.1.0",
+    "@arbennett/base16-summerfruit-light": "^0.1.0"
   },
   "devDependencies": {
     "rimraf": "~2.6.2",
@@ -49,10 +47,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "jupyterlab": {
-    "extension": true,
-    "themePath": "style/index.css"
   },
   "homepage": "",
   "bugs": {
