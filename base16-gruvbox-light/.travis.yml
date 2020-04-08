@@ -1,0 +1,20 @@
+language: python
+python:
+  - 3.6
+sudo: false
+cache:
+  pip: true
+  directories:
+    - $HOME/.npm
+before_install:
+  - pip install -U pip setuptools
+  - nvm install 6
+install:
+  - pip install --upgrade ".[test]" -v
+script:
+  - jupyter nbextension list
+  - jupyter nbextension enable --py --sys-prefix base16-gruvbox-light
+  - pip install jupyterlab
+  - jupyter labextension list
+  - jupyter labextension list 2>&1 | grep -q base16-gruvbox-light
+  - jupyter labextension link

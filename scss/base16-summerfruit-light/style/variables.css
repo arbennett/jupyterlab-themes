@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - scss/summerfruit-light.scss
+
+Backtrace:
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/bin/sass:23:in `load'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/bin/sass:23:in `<main>'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/pool0/home/andrbenn/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss/summerfruit-light.scss"; }
