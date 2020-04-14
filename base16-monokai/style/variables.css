@@ -291,7 +291,7 @@
   );
   /* Rendermime styles */
   --jp-rendermime-error-background: var(--jp-layout-color0);
-  --jp-rendermime-table-row-background: var(--md-grey-900);
+  --jp-rendermime-table-row-background: var(--jp-layout-color1);
   --jp-rendermime-table-row-hover-background: rgba(3, 169, 244, 0.2);
   /* Dialog specific styles */
   --jp-dialog-background: rgba(0, 0, 0, 0.6);

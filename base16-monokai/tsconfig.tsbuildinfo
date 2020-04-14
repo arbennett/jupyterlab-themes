@@ -1366,7 +1366,7 @@
         "signature": "7a7e8dec050f4ad9d6b093812a3a203acb13a32364079db20f7a6fde38f8427c"
       },
       "./src/index.ts": {
-        "version": "9472e7fc6cdc8c080c493fc83e8d60b494eaf6011f5c46af0dfd7c95b59be404",
+        "version": "854c1ae6baf9d507b30d60ab9f8cd8db9f21f359d60c477019129ba42291690d",
         "signature": "37d15e5d2979bd917b583a349572dac41b85d5237ed18837125462b90ac4a547"
       }
     },
