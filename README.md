@@ -3,7 +3,7 @@
 ## Add more colors to your Jupyter Lab!
 
 :exclamation: This plugin is in super-duper-pre-early-alpha stages. You are welcome to try to use and/or improve it,
- but can't vouch for it's stability. If you want to help out, check out the contributing section below, or browse the
+ but I can't vouch for it's stability. If you want to help out, check out the contributing section below, or browse the
  issues!
 
 ## What is this?
