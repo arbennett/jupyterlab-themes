@@ -32,6 +32,14 @@ npm install
 jupyter labextension link .
 ```
 
+## Example screenshots
+
+### Nord theme
+![nord](./screenshots/nord.png "Nord theme screenshot")
+
+### Mexico theme
+![mexico](./screenshots/mexico-light.png "Mexico theme screenshot")
+
 ## Contributing
 I am only able to work on this project intermittently, and would love to make this a community project.
 If you would like to contribute feel free to open a pull request or file an issue! I'll do my best to
