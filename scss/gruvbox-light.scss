@@ -75,22 +75,22 @@
 
   /* light to dark for light theme
    * dark to light for dark theme */
-  $layout-color0: darken($black, 0%);
-  $layout-color1: darken($black, 4%);
-  $layout-color2: darken($black, 8%);
-  $layout-color3: darken($black, 16%);
-  $layout-color4: darken($black, 32%);
-  $layout-color5: darken($black, 40%);
-  $layout-color6: darken($black, 48%);
+  $layout-color0: desaturate(darken($black, 4%) ,  8%);
+  $layout-color1: desaturate(darken($black, 0%) ,  0%);
+  $layout-color2: desaturate(darken($black, 8%) , 16%);
+  $layout-color3: desaturate(darken($black, 16%), 24%);
+  $layout-color4: desaturate(darken($black, 32%), 32%);
+  $layout-color5: desaturate(darken($black, 40%), 40%);
+  $layout-color6: desaturate(darken($black, 48%), 48%);
 
   /* dark to light for light theme
    * light to dark for dark theme */
-  $inverse-color0: lighten($white, 0%);
-  $inverse-color1: lighten($white, 8%);
-  $inverse-color2: lighten($white, 16%);
-  $inverse-color3: lighten($white, 24%);
-  $inverse-color4: lighten($white, 32%);
-  $inverse-color5: lighten($white, 40%);
+  $inverse-color0: desaturate(lighten($white, 8%) ,  8%);
+  $inverse-color1: desaturate(lighten($white, 0%) ,  0%);
+  $inverse-color2: desaturate(lighten($white, 16%), 16%);
+  $inverse-color3: desaturate(lighten($white, 24%), 24%);
+  $inverse-color4: desaturate(lighten($white, 32%), 32%);
+  $inverse-color5: desaturate(lighten($white, 40%), 40%);
 
   --base16-green0:            #{$base16-green0};
   --base16-green1:            #{$base16-green1};
