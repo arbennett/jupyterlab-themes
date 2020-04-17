@@ -8,7 +8,7 @@
 
 ## What is this?
 Simply put, this is an extension to add a number of color themes to Juptyer Lab. I created this as a heavy user of
-Jupyter Lab, and didn't particularly like the default dark scheme. I take *heavy* inspriation from the following
+Jupyter Lab, and didn't particularly like the default dark scheme. I take *heavy* inspiration from the following
 projects:
 
  - [base16](https://github.com/chriskempson/base16): Definitions of color schemes following a basic template
