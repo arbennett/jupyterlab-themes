@@ -3,12 +3,12 @@
 ## Add more colors to your Jupyter Lab!
 
 :exclamation: This plugin is in super-duper-pre-early-alpha stages. You are welcome to try to use and/or improve it,
- but can't vouch for it's stability. If you want to help out, check out the contributing section below, or browse the
+ but I can't vouch for it's stability. If you want to help out, check out the contributing section below, or browse the
  issues!
 
 ## What is this?
 Simply put, this is an extension to add a number of color themes to Juptyer Lab. I created this as a heavy user of
-Jupyter Lab, and didn't particularly like the default dark scheme. I take *heavy* inspriation from the following
+Jupyter Lab, and didn't particularly like the default dark scheme. I take *heavy* inspiration from the following
 projects:
 
  - [base16](https://github.com/chriskempson/base16): Definitions of color schemes following a basic template
