@@ -52,3 +52,11 @@ Thus, the workflow I've developed here may seem odd or convoluted to those with 
 domain. Basically, my workflow has been to edit the base stylesheets in the `scss` directory, and using the
 `gen_css.sh` script to generate all of the `css` files directly. Then I update my builds as necessary.
 If you know a better way to do this, please let me know!
+
+### Bumping versions
+Because I have cobbled together a strange workflow for updating all of the themes at once it's a bit unwieldy
+to update the versioning consistently. This is the command I use (mostly for my own sake):
+
+```
+sed -i 's/"version": "CURRENT_VERSION"/"version": "NEW_VERSION"/g' ./**/package.json
+```
