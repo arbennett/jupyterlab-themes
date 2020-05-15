@@ -75,13 +75,14 @@
 
   /* light to dark for light theme
    * dark to light for dark theme */
-  $layout-color0: lighten($black, 0%);
-  $layout-color1: lighten($black, 8%);
-  $layout-color2: lighten($black, 16%);
-  $layout-color3: lighten($black, 24%);
-  $layout-color4: lighten($black, 32%);
-  $layout-color5: lighten($black, 40%);
-  $layout-color6: lighten($black, 48%);
+  $layout-color0: darken($black, 0%);
+  $layout-color1: $black;
+  $layout-color2: lighten($black, 8%);
+  $layout-color3: lighten($black, 16%);
+  $layout-color4: lighten($black, 24%);
+  $layout-color5: lighten($black, 32%);
+  $layout-color6: lighten($black, 40%);
+  $layout-color7: lighten($black, 48%);
 
   /* dark to light for light theme
    * light to dark for dark theme */
