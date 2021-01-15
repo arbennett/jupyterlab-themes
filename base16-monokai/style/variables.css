@@ -69,8 +69,8 @@
   --jp-inverse-layout-color3: #cdcda2;
   --jp-inverse-layout-color4: #bfbf88;
   --jp-inverse-layout-color5: #b1b16d;
-  --jp-editor-selected-focused-background: var(--jp-layout-color0);
-  --jp-editor-cursor-color: var(--jp-inverse-layout-color0);
+  --jp-editor-selected-focused-background: var(--jp-layout-color2);
+  --jp-editor-cursor-color: var(--jp-inverse-layout-color2);
   /* Elevation
    *
    * We style box-shadows using Material Design's idea of elevation. These particular numbers are taken from here:
@@ -278,7 +278,7 @@
   /* Notebook specific styles */
   --jp-notebook-padding: 10px;
   --jp-notebook-select-background: var(--jp-layout-color2);
-  --jp-notebook-multiselected-color: rgba(181, 118, 20, 0.24);
+  --jp-notebook-multiselected-color: var(--jp-layout-color2);
   /* The scroll padding is calculated to fill enough space at the bottom of the
    *notebook to show one single-line cell (with appropriate padding) at the top
    *when the notebook is scrolled all the way to the bottom. We also subtract one

@@ -69,7 +69,7 @@
   --jp-inverse-layout-color3: #4d4d4d;
   --jp-inverse-layout-color4: #626262;
   --jp-inverse-layout-color5: #767676;
-  --jp-editor-selected-focused-background: var(--jp-layout-color0);
+  --jp-editor-selected-focused-background: var(--jp-layout-color2);
   --jp-editor-cursor-color: var(--jp-inverse-layout-color0);
   /* Elevation
    *
