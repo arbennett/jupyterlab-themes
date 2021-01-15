@@ -3,6 +3,9 @@
 :wave: Hi there! As of about mid-October I've decided to halt any development or updates to this project until Jupyterlab 3.0 
 is released. Some of the updates in 3.0 should make theming easier, and I'd like to minimize the amount of extra work to be done.
 
+:wave: :wave: Hi again! I've updated the project to be compatible with Jupyterlab 3! It's just a compatibility thing, but I'm
+hoping to be able to dedicate some development time to this project around mid-March! Until then, feel free to file any issues you come across!
+
 ## Add more colors to your Jupyter Lab!
 
 :exclamation: This plugin is in super-duper-pre-early-alpha stages. You are welcome to try to use and/or improve it,
