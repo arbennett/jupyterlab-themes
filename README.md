@@ -3,11 +3,16 @@
 :wave: Hi there! As of about mid-October I've decided to halt any development or updates to this project until Jupyterlab 3.0 
 is released. Some of the updates in 3.0 should make theming easier, and I'd like to minimize the amount of extra work to be done.
 
+:wave: :wave: Hi again! I've updated the project to be compatible with Jupyterlab 3! It's just a compatibility thing, but I'm
+hoping to be able to dedicate some development time to this project around mid-March! Until then, feel free to file any issues you come across!
+
 ## Add more colors to your Jupyter Lab!
 
-:exclamation: This plugin is in super-duper-pre-early-alpha stages. You are welcome to try to use and/or improve it,
- but I can't vouch for it's stability. If you want to help out, check out the contributing section below, or browse the
- issues!
+:exclamation: This plugin is in alpha stages. You are welcome to try to use and/or improve it,
+ but stability is not guaranteed. If you want to help out, check out the contributing section below, or browse the
+ issues! If you'd like to help fund further developments donations are greatly appreciated! 
+ 
+ ![Donate <3(https://www.paypal.com/donate/?business=S5M3APDA7GKXQ&currency_code=USD)](https://img.shields.io/badge/PayPal-Donations%20Appreciated%20%3C3-orange?style=for-the-badge&logo=paypal)
 
 ## What is this?
 Simply put, this is an extension to add a number of color themes to Juptyer Lab. I created this as a heavy user of
@@ -19,15 +24,14 @@ projects:
  - [theme-gruvbox](https://github.com/Rahlir/theme-gruvbox): gruvbox dark theme implemented for Jupyter Lab
 
 ## Installation
-Currently, you have to install each of the themes individually. Lagging versions can be installed directly
+Currently, you have to install each of the themes individually. Themes be installed directly
 via `npm` with the standard way of installing lab extensions:
 
 ```
 jupyter labextension install @arbennett/base16-{$themename}
 ```
 
-However, you might have better and more complete results if you build from source and link directly from
-source until things have settled down. This can be accomplished by running the following comands in a
+You can also install from source. This can be accomplished by running the following comands in a
 theme's respective subdirectory:
 
 ```

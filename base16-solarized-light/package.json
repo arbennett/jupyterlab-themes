@@ -1,6 +1,6 @@
 {
   "name": "@arbennett/base16-solarized-light",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A JupyterLab theme extension.",
   "author": "Andrew Bennett <bennett.andr@gmail.com>",
   "keywords": [
@@ -30,8 +30,8 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "1.x.0 -  2.x.0",
-    "@jupyterlab/apputils": "1.x.0 -  2.x.0"
+    "@jupyterlab/application": "1.x.0 - 3.x.0",
+    "@jupyterlab/apputils": "1.x.0 - 3.x.0"
   },
   "devDependencies": {
     "rimraf": "~2.6.2",
