@@ -15,7 +15,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = '@arbennett/base16-nord/index.css';
 
     manager.register({
-      name: '/base16-nord',
+      name: 'base16-nord',
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
