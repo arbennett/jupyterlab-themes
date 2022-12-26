@@ -137,8 +137,8 @@
   --jp-inverse-layout-color4: #{$inverse-color4};
   --jp-inverse-layout-color5: #{$inverse-color5};
 
-  --jp-editor-selected-focused-background: var(--jp-layout-color0);
-  --jp-editor-cursor-color:                var(--jp-inverse-layout-color0);
+  --jp-editor-selected-focused-background: var(--jp-layout-color2);
+  --jp-editor-cursor-color:                var(--jp-inverse-layout-color2);
 
 
   /* Elevation
@@ -379,7 +379,7 @@
 
   --jp-notebook-padding: 10px;
   --jp-notebook-select-background: var(--jp-layout-color2);
-  --jp-notebook-multiselected-color: rgba(181, 118, 20, 0.24);
+  --jp-notebook-multiselected-color: var(--jp-layout-color2);
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
    *notebook to show one single-line cell (with appropriate padding) at the top
