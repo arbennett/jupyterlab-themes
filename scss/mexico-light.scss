@@ -137,7 +137,7 @@
   --jp-inverse-layout-color4: #{$inverse-color4};
   --jp-inverse-layout-color5: #{$inverse-color5};
 
-  --jp-editor-selected-focused-background: var(--jp-layout-color0);
+  --jp-editor-selected-focused-background: var(--jp-layout-color2);
   --jp-editor-cursor-color:                var(--jp-inverse-layout-color0);
 
 
@@ -414,6 +414,10 @@
   --jp-toolbar-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.8);
   --jp-toolbar-header-margin: 4px 4px 0px 4px;
   --jp-toolbar-active-background: var(--jp-layout-color0);
+
+  /* Statusbar specific styles */
+
+  --jp-statusbar-height: 24px;
 
   /* Input field styles */
 
