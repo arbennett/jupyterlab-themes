@@ -37,15 +37,15 @@
     "rimraf": "~2.6.2",
     "typedoc": "~0.12.0",
     "typescript": "~3.7.1",
-    "css-loader": "~0.28.7",
-    "mini-css-extract-plugin": "~0.4.4",
+    "css-loader": "~6.7.3",
+    "mini-css-extract-plugin": "~2.7.2",
     "svgo": "~1.0.4",
-    "svg-url-loader": "~2.3.1",
-    "svgo-loader": "~2.1.0",
-    "url-loader": "~1.0.1",
+    "svg-url-loader": "~8.0.0",
+    "svgo-loader": "~3.0.3",
+    "url-loader": "~4.1.1",
     "watch": "~1.0.2",
-    "webpack": "~4.12.0",
-    "webpack-cli": "^3.0.3"
+    "webpack": "~5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "publishConfig": {
     "access": "public"
